@@ -55,7 +55,7 @@ st.markdown("""
 
 # App title
 st.markdown("<h1 class='title'>Google Search Console Data Analysis</h1>", unsafe_allow_html=True)
-sample_image_path="C:/Users/HP/OneDrive/Desktop/Office/GSCreport/Screenshot 2024-06-19 150107.png"
+# sample_image_path="C:/Users/HP/OneDrive/Desktop/Office/GSCreport/Screenshot 2024-06-19 150107.png"
 
 with st.expander("Instructions"):
     st.subheader("How to Use It")
@@ -70,7 +70,7 @@ with st.expander("Instructions"):
     **Ensure the column names exactly match the ones specified above.**
     """)
     st.subheader("Sample CSV:")
-    df = pd.read_csv("C:/Users/HP/OneDrive/Desktop/Office/GSCreport/samplecsvgsc.csv")
+    df = pd.read_csv("GSCreport/samplecsvgsc.csv")
     st.write(
     f"""
     <div style="height: 300px; width: 1000px; overflow: auto;">
